@@ -1,0 +1,34 @@
+{
+    "name": "Visual_Impairment_Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js" : ["/content/content_general_wiki.js"],
+        "excude_matches" : ["https://en.wikipedia.org/wiki/*"]
+      },
+      {
+        "matches" : ["https://en.wikipedia.org/wiki/*"], 
+        "js" : ["/content/content_summary.js", "/content/content_navigation_voice_search.js", "/content/content_page_dictation.js", "jquery2-3.2.1.min.js", "content/content_colorblind.js", "/content/content_magnifier.js"]
+      },
+      {
+        "matches" : ["https://www.wikipedia.org/"], 
+        "js" : ["/content/content_navigation_voice_search.js"]
+      }
+      
+      
+    ],
+    "browser_action": {
+      "default_title": "Visually Impaired",
+      "default_popup":"/popup/popup.html"
+    },
+    "background" : {
+      "scripts" : ["background.js"],
+      "persistent" : false
+    },
+    "permissions" : [
+      "tabs",
+      "activeTab"
+    ]
+  }

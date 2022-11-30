@@ -1,0 +1,235 @@
+#body{
+    background-color: #35363a;
+}
+#outer-box{
+    border: 2px solid #202124;
+    border-radius: 10px;
+    background-color: #202124;
+    padding: 10px 5px; 
+    display: block;
+    margin: -7px -7px;
+}
+.heading-text{
+    color: white;
+    text-align: center;
+}
+#wiki-button{
+    height: 20%;
+    padding: 10px 0px;
+}
+.options2{
+    width: 80%;
+    padding: 10px 7px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin: 4px 0px;
+    color : white;
+    text-align: center;
+    font-size: 15px;
+    background-color: #202124;
+}
+.options2:hover{
+    background-color: white;
+    color: black;
+}
+#round-corners{
+    border: 1px solid white;
+    border-radius: 7px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choose{
+    height: 7%;
+    color: grey;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#menu-options{
+    height: 48%;
+    padding-bottom: 10px;
+}
+.options{
+    width: 93%;
+    padding: 10px 18px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin: 4px 0px;
+    color : white;
+    text-align: center;
+    background-color: #202124;
+}
+
+.options:hover{
+    background-color: white;
+    color: black;
+    width: 99%;
+    height: 40px;
+}
+
+#color-blindness{
+    padding: 15px 5px;
+    background-color: #202124;
+    border: 2px solid #202124;
+    border-radius: 10px;
+    width: 180px;
+    margin: -7px -7px;
+}
+#back-button-div{
+    padding-left: 5px;
+}
+#back-button1{
+    color: grey;
+    font-size : 15px;
+    background-color: #202124;
+    border: 1px solid grey;
+    border-radius: 7px;
+    height: 10%;
+}
+#back-button2{
+    color: grey;
+    font-size : 15px;
+    background-color: #202124;
+    border: 1px solid grey;
+    border-radius: 7px;
+    height: 10%;
+}
+
+#back-button1:hover{
+    background-color: white;
+    color: black;
+}
+#back-button2:hover{
+    background-color: white;
+    color: black;
+}
+
+#cb-heading{
+    padding-top: 10px;
+    font-size: 20px;
+}
+#radio-options{
+    height: 48%;
+    padding-bottom: 7px;
+    padding-top: 3px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+/* .radio-button{
+    background-color: white;
+} */
+.cb-options{
+    width: 93%;
+    padding: 10px 0px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin: 5px 0px;
+    color : white;
+    text-align: center;
+    font-size: 13px;
+    background-color: #202124;
+}
+#buttons{
+    padding: 10px 10px;
+}
+.color{
+    color: white;
+}
+.btn{
+    padding: 5px 10px;
+    border: 1px solid grey;
+    background-color: #202124;
+    border-radius: 7px;
+    color:white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+#submit{
+    margin-left: 20px;
+}
+
+#magnifier{
+    border: 2px solid #202124;
+    border-radius: 10px;
+    background-color: #202124;
+    padding: 10px 10px; 
+    display: block;
+    margin: -7px -7px;
+}
+
+#mfr-heading{
+    padding-top: 10px;
+    font-size: 20px;
+}
+/* #mfr-options-div{
+    padding: 5px;
+} */
+/* height: 7%;
+    color: grey;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-top: 5px; */
+
+
+.mfr-options{
+    padding: 5px 5px;
+    color : white;
+    font-size: 13px;
+}
+
+.circular-box{
+    border : 1px solid grey;
+    border-radius: 7px;
+    padding: 2px;
+    padding-top: 5px;
+    margin: 8px 0px;
+}
+
+.input-text{
+    display: flex;
+}
+
+.input-options{
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+
+.options-text{
+    color: white;
+    margin-top: 7px;
+    padding-left: 2px;
+}
+
+#label-options{
+    padding-top: 5px;
+}
+
+.shape-options{
+    color:white;
+    padding: 5px;
+}
+
+#save-btn{
+    padding-top: 10px;
+}
+
+#save{
+    background-color: #202124;
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 10px 15px;
+    color: white;
+}
+
+#save:hover{
+    background-color: white;
+    color: #202124;
+    border: 1px solid white;
+}
